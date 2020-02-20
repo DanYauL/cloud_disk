@@ -8,6 +8,8 @@ void make_log(void (*log)(int, const char*), int level, const char *format)
     log(level, format);    
 }
 
+
+
 void mysql_log(int level, const char *format)
 {
     int rc;
